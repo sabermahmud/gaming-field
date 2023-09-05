@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+:root {
+    --primary-color: #FF42A5;
+    --secondary-color: #8758F1;
+}
+
+.navebar {
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    ;
+}
+
+.navebar-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 15px;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo>img {
+    width: 45px;
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.logo-part {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.manubar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+
+.manu-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    transition: .5s;
+}
+
+.manu-list>li{
+    transition: .5s;
+}
+
+.manu-list>li:hover{
+    color: var(--primary-color)
+}
+
+.first-btn{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    transition: 1s;
+}
+
+.first-btn:hover{
+    border: 1px solid black;
+}
+
+.first-btn>i{
+    padding-left: 5px;
+}
+
+.fa-youtube{
+    color: red;
+}
+
